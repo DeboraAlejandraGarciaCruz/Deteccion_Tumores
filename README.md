@@ -1,2 +1,2 @@
 # Deteccion_Tumores
-Débora Alejandra Garcia
+Débora Alejandra Garcia Cruz
