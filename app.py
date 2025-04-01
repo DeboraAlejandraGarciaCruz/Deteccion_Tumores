@@ -57,4 +57,5 @@ def upload_file():
     return render_template('index.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get('PORT', 5000)) #obtener el puerto de la variable de entorno PORT, o usar 5000 como defecto
+    app.run(host='0.0.0.0', port=port, debug=False) #cambio para producción
